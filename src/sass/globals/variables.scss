@@ -1,0 +1,29 @@
+$verde      :  #39A6A3;
+$beige      :  #DEEEEA;
+$black      :  #231E23;
+$black2      :  #302D30;
+$mixBlue    :  linear-gradient(180deg, #1b1b1bbb 19.32%, rgba(88, 89, 91, 0) 60.85%, #1b1b1bd7 100%), linear-gradient(0deg, rgba(17, 41, 63, 0.464), rgba(40, 58, 73, 0.481));
+$fuzzy      :   'fuzzy_bubblesregular';
+$light      :   'rajdhanilight';
+$medium     :   'rajdhanimedium';
+$regular    :   'rajdhaniregular';
+$semibold   :   'rajdhanisemibold';
+$bold       :   'rajdhanibold';
+$light      :   'rajdhanilight';
+
+@mixin blueGradient{
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: inherit;
+        background: $mixBlue;
+        background-blend-mode: multiply;
+        z-index: 0;
+    }
+}
+@mixin blackGradient{
+    background: linear-gradient(180deg, #1b1b1bd7 0%, rgba(88, 89, 91, 0) 100%);
+    background-blend-mode: multiply;
+}

@@ -1,0 +1,347 @@
+.proyectos{
+    background-color: $black;
+    .proyecto_hidrocon,
+    .proyecto_cuore,
+    .proyecto_gret{
+        padding-top: 74px;
+    }
+    .hero_cuore,
+    .hero_gret,
+    .hero_hidrocon{
+        background-size: cover;
+        background-position: center;
+        height: 233px;
+        width: 100%;
+        .bg_cuore,
+        .bg_gret,
+        .bg_hidrocon{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            height: 100%;
+            gap: 10px;
+            img{
+                max-width: 50%;
+            }
+        }
+    }
+    .proyecto_cuore{
+        .hero_cuore{
+            background-image: url('/img/bg_cuore.png');
+            .bg_cuore{
+                img:first-child{
+                    max-width: 150px;
+                    position: relative;
+                    top: 30px;
+                }
+            }
+        }
+        .about_proyect{
+            .img_item{
+                img{
+                    width: 50%;
+                }
+            }
+        }
+        .wireframes{
+            .tittle{
+                .tittle_shadow{
+                    font-size: 3.5rem;
+                }
+            }
+        }
+        .tipografia{
+            .box_interfaz{
+                background-color: linear-gradient(116.64deg, #C0E74B 1.81%, #92BD3A 97.86%);
+            }
+        }
+    }
+    .proyecto_gret{
+        .hero_gret{
+            background-image: linear-gradient(99.65deg, #0079FF 9.82%, #0EA6C8 69.24%);
+        }
+        .interfaz{
+            .box_vistas{
+                margin: 0 -20px;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+            .vistas{
+                text-align: center;
+                h3{
+                    color: $verde;
+                    margin-bottom: 32px;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+        }   
+    }
+    .proyecto_hidrocon{
+        .hero_hidrocon{
+            background-image: url('/img/bg_hidrocon.png');
+        }
+        .interfaz{
+            .box_interfaz{
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+    .about_proyect{
+        padding: 70px 0 50px;
+        background-color: $black2;
+        .item_portafolio{
+            background-color: $black;
+            padding: 30px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .info_item{
+            .about_item{
+                margin-bottom: 20px;
+            }
+        }
+        .img_item{
+            text-align: center;
+            margin-top: 20px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .tipografia,
+    .wireframes,
+    .interfaz{
+        padding: 50px 0;
+        .box_wireframes{
+            background-color: $beige;
+        }
+        
+        .box_wireframes,
+        .box_interfaz{
+            margin: 0 -20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+            align-items: center;
+            a{
+                line-height: 0;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .fuentes{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            img{
+                background-color: $black2;
+                border-radius: 20px;
+                padding: 20px;
+                width: 100%;
+            }
+        }
+    }
+    
+    .otros{
+        background-color: $black2;
+        padding: 50px 0;
+        .box_otros{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .item_otros{
+            margin: 0 -20px;
+            &.gret{
+                .otros_img{
+                    background: linear-gradient(99.65deg, #0079FF 9.82%, #0EA6C8 69.24%);
+                    height: 240px;
+                }
+            }
+        }
+        .item_otros{
+            background-color: $black;
+            .otros_img{
+                overflow: hidden;
+                img{
+                    object-fit: cover;
+                    height: 240px;
+                    width: 100%;
+                }
+            }
+            .info_item{
+                margin: 30px 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .proyectos{
+        .proyecto_cuore,
+        .proyecto_hidrocon,
+        .proyecto_gret{
+            padding-top: 90px;
+        }
+        .hero_cuore,
+        .hero_gret,
+        .hero_hidrocon{
+            height: 375px;
+            .bg_cuore,
+            .bg_gret,
+            .bg_hidrocon{
+                justify-content: center;
+                margin: auto;
+            }
+        }
+        .proyecto_cuore{
+            .hero_cuore{
+                .bg_cuore{
+                    img:first-child{
+                        max-width: 250px;
+                        top: 50px;
+                        margin-right: 50px;
+                    }
+                    img{
+                        max-width: 33%;
+                    }
+                }
+            }
+            .about_proyect{
+                .img_item{
+                    img{
+                        width: 80%;
+                    }
+                }
+            }
+            .wireframes{
+                .tittle{
+                    .tittle_shadow{
+                        font-size: 3.5rem;
+                    }
+                }
+            }
+        }
+        .proyecto_gret{
+            .hero_gret{
+                .bg_gret{
+                    img:first-child{
+                        max-width: 500px;
+                        top: 50px;
+                        margin-right: 50px;
+                    }
+                    img{
+                        max-width: 20%;
+                    }
+                }
+            }
+            .interfaz{
+                .box_vistas{
+                    margin: initial;
+                    .vistas{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: end;
+                        align-items: center;
+                    }
+                    img{
+                        max-width: 840px;
+                    }
+                    a{
+                        margin-left: 10%;
+                    }
+                }
+            }
+        }
+        .about_proyect{
+            padding: 100px 0 50px;
+            .item_portafolio{
+                gap: 58px;
+                margin: auto;
+                padding: 50px;
+                width: fit-content;
+                flex-direction: row;
+                align-items: center;
+            }
+            .info_item{
+                max-width: 478px;
+            }
+            .img_item{
+                margin-top: 0;
+                img{
+                    width: 80%;
+                }
+            }
+        }
+        .tipografia,
+        .wireframes,
+        .interfaz{
+            .fuentes{
+                flex-direction: row;
+                justify-content: center;
+                img{
+                    max-width: 350px;
+                    width: 50%;
+                }
+            }
+            .box_wireframes,
+            .box_interfaz{
+                padding: 0 20px;
+                grid-template-columns: repeat(3, 1fr);
+                background-color: transparent;
+                gap: 30px;
+            }
+        }
+        .proyecto_hidrocon{
+            .wireframes{
+                .tittle{
+                    .tittle_shadow{
+                        font-size: 9rem;
+                    }
+                }
+            }
+            .box_interfaz{
+                a{
+                    text-align: center;
+                    img{
+                        width: 50%;
+                    }
+                }
+            }
+
+        }
+        
+        .proyecto_hidrocon{
+            .box_wireframes,
+            .box_interfaz{
+                margin-top: 32px;
+            }
+        }
+        .otros{
+            .box_otros{
+                flex-direction: row;
+            }
+            .item_otros{
+                margin: 0;
+                width: 100%;
+            }
+            .item_otros{
+                .otros_img{
+                }
+                .info_item{
+                    height: 175px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .btn{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

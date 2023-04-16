@@ -1,0 +1,34 @@
+section#contactame.contactame 
+    .container
+        .tittle
+            img.mobile(src="../img/contacto_m.png", alt="")
+            img.desk(src="../img/contacto_d.png", alt="")
+        .box_contactame 
+            .medios_contacto
+                p Ponte en contacto conmigo por medio de mi email y/o whatsapp
+                .medios 
+                    .icon_contacto 
+                        img(src="../img/cat_mail.png", alt="")
+                    .canal 
+                        .nombre_canal Email
+                        a(href="mailto:mchristy.ccb@gmail.com") mchristy.ccb@gmail.com
+                .medios 
+                    .icon_contacto 
+                        img(src="../img/ws_cat.png", alt="")
+                    .canal 
+                        .nombre_canal Whatsapp
+                        a(href="https://wa.me/51915086889/?text=Hola Christy, vi tu portafolio" target='_blank') 915086889
+            //- .form_contacto 
+                p O si gustas déjame un mensaje por aquí:
+                form(action="") 
+                    .item_form 
+                        label Nombre:
+                        input(type="text" placeholder="¿Cúal es tu nombre?" required)
+                    .item_form 
+                        label email:
+                        input(type="text" placeholder="Escribe tu email" required)
+                    .item_form 
+                        label mensaje:
+                        textarea(placeholder="Déjame aquí tu mensaje :)" rows="4" required)
+                    .submit
+                        a(href="mailto:mchristy.ccb@gmail.com").btn.green Enviar

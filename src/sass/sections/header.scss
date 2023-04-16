@@ -1,0 +1,121 @@
+header{
+    position: fixed;
+    padding: 15px 0;
+    width: 100%;
+    z-index: 999;
+    background-color: $black;
+    .box_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav_mobile{
+        #burguer{
+            cursor: pointer;
+        }
+        .line{
+            width: 23px;
+            height: 3px;
+            margin-bottom: 4px;
+            border-radius: 25px;
+            background-color: $verde;
+        }
+        .menu{
+            position: absolute;
+            background-color: rgb(57 166 163 / 90%);
+            right: -100%;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.5s ease-in-out;
+            &.enter{
+                transition: all 0.5s ease-in-out;
+                right: 0;
+            }
+            a{
+                font-size:42px;
+                font-family: $regular;
+                margin-left: 10px;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+                
+                &:hover .icon_huella{
+                    opacity: 1;
+                }
+            }
+            .icon_huella{
+                background-image: url('/img/pata.svg');
+                height: 20px;
+                width: 20px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                opacity: 0;
+                transition: all .2s ease-in-out;
+            }
+            .close{
+                position: absolute;
+                top: 40px;
+                right: 20px;
+                cursor: pointer;
+                .line{
+                    background-color: $beige;
+                }
+                .line:first-child{
+                    transform: rotate(45deg);
+                }
+                .line:last-child{
+                    transform: rotate(-45deg);
+                    position: relative;
+                    top: -7px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px) {
+    header{
+        padding: 23px 0;
+        .nav_mobile{
+            #burguer{
+                display: none;
+            }
+            .menu{
+                position: relative;
+                left: 0;
+                background-color: transparent;
+                height: auto;
+                .close{
+                    display: none;
+                }
+                ul{
+                    display: flex;
+    
+                }
+                a{
+                    font-size: 20px;
+                    &:hover{
+                        color: $verde;
+                        transition: all .3s ease-in-out;
+                    }
+                    &.active{
+                        color: $verde;
+                    }
+                }
+                li{
+                    margin-bottom: 0;
+                    margin-right: 70px;
+                }
+                .icon_huella{
+                    display: none;
+                }
+            }
+        }
+    }
+}
