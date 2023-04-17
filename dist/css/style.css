@@ -161,15 +161,15 @@ p.bold {
 }
 
 .cuore .box_img_item {
-  background-image: url("./img/cuore_bg_mb.png");
+  background-image: url("../img/cuore_bg_mb.png");
 }
 
 .gret .box_img_item {
-  background-image: url("./img/gret_bg_mb.png");
+  background-image: url("../img/gret_bg_mb.png");
 }
 
 .hidrocon .box_img_item {
-  background-image: url("./img/hidrocon_bg_mb.png");
+  background-image: url("../img/hidrocon_bg_mb.png");
 }
 
 @media only screen and (min-width: 768px) {
@@ -204,13 +204,13 @@ p.bold {
 }
 @media only screen and (min-width: 1024px) {
   .cuore .box_img_item {
-    background-image: url("./img/cuore_bg.png");
+    background-image: url("../img/cuore_bg.png");
   }
   .gret .box_img_item {
-    background-image: url("./img/gret_bg.png");
+    background-image: url("../img/gret_bg.png");
   }
   .hidrocon .box_img_item {
-    background-image: url("./img/hidrocon_bg.png");
+    background-image: url("../img/hidrocon_bg.png");
   }
 }
 header {
@@ -265,7 +265,7 @@ header .nav_mobile .menu li:hover .icon_huella {
   opacity: 1;
 }
 header .nav_mobile .menu .icon_huella {
-  background-image: url("/img/pata.svg");
+  background-image: url("../img/pata.svg");
   height: 20px;
   width: 20px;
   background-repeat: no-repeat;
@@ -630,13 +630,13 @@ header .nav_mobile .menu .close .line:last-child {
     background-size: cover;
   }
   .portafolio .cuore .box_img_item {
-    background-image: url("./img/cuore_bg.png");
+    background-image: url("../img/cuore_bg.png");
   }
   .portafolio .gret .box_img_item {
-    background-image: url("./img/gret_bg.png");
+    background-image: url("../img/gret_bg.png");
   }
   .portafolio .hidrocon .box_img_item {
-    background-image: url("./img/hidrocon_bg.png");
+    background-image: url("../img/hidrocon_bg.png");
   }
   .contactame {
     padding: 70px;
@@ -703,7 +703,7 @@ header .nav_mobile .menu .close .line:last-child {
   max-width: 50%;
 }
 .proyectos .proyecto_cuore .hero_cuore {
-  background-image: url("./img/bg_cuore.png");
+  background-image: url("../img/bg_cuore.png");
 }
 .proyectos .proyecto_cuore .hero_cuore .bg_cuore img:first-child {
   max-width: 150px;
@@ -739,7 +739,7 @@ header .nav_mobile .menu .close .line:last-child {
   width: 100%;
 }
 .proyectos .proyecto_hidrocon .hero_hidrocon {
-  background-image: url("./img/bg_hidrocon.png");
+  background-image: url("../img/bg_hidrocon.png");
 }
 .proyectos .proyecto_hidrocon .interfaz .box_interfaz {
   grid-template-columns: 1fr;
