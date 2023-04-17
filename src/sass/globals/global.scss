@@ -102,17 +102,17 @@ p{
 }
 .cuore{
     .box_img_item{
-        background-image: url('/img/cuore_bg_mb.png');
+        background-image: url('./img/cuore_bg_mb.png');
     }
 }
 .gret{
     .box_img_item{
-        background-image: url('/img/gret_bg_mb.png');
+        background-image: url('./img/gret_bg_mb.png');
     }
 }
 .hidrocon{
     .box_img_item{
-        background-image: url('/img/hidrocon_bg_mb.png');
+        background-image: url('./img/hidrocon_bg_mb.png');
     }
 }
 @media only screen and (min-width: 768px) {
@@ -147,17 +147,17 @@ p{
 @media only screen and (min-width: 1024px) {
     .cuore{
         .box_img_item{
-            background-image: url('/img/cuore_bg.png');
+            background-image: url('./img/cuore_bg.png');
         }
     }
     .gret{
         .box_img_item{
-            background-image: url('/img/gret_bg.png');
+            background-image: url('./img/gret_bg.png');
         }
     }
     .hidrocon{
         .box_img_item{
-            background-image: url('/img/hidrocon_bg.png');
+            background-image: url('./img/hidrocon_bg.png');
         }
     }
 }

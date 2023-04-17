@@ -1,49 +1,49 @@
 @font-face {
   font-family: "fuzzy_bubblesregular";
-  src: url("../font/fuzzybubbles-regular-webfont.eot");
-  src: url("../font/fuzzybubbles-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/fuzzybubbles-regular-webfont.woff") format("woff"), url("../font/fuzzybubbles-regular-webfont.ttf") format("truetype");
+  src: url("./font/fuzzybubbles-regular-webfont.eot");
+  src: url("./font/fuzzybubbles-regular-webfont.eot?#iefix") format("embedded-opentype"), url("./font/fuzzybubbles-regular-webfont.woff") format("woff"), url("./font/fuzzybubbles-regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "rajdhanilight";
-  src: url("../font/rajdhani-light-webfont.eot");
-  src: url("../font/rajdhani-light-webfont.eot?#iefix") format("embedded-opentype"), url("../font/rajdhani-light-webfont.woff") format("woff"), url("../font/rajdhani-light-webfont.ttf") format("truetype");
+  src: url("./font/rajdhani-light-webfont.eot");
+  src: url("./font/rajdhani-light-webfont.eot?#iefix") format("embedded-opentype"), url("./font/rajdhani-light-webfont.woff") format("woff"), url("./font/rajdhani-light-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "rajdhanimedium";
-  src: url("../font/rajdhani-medium-webfont.eot");
-  src: url("../font/rajdhani-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../font/rajdhani-medium-webfont.woff") format("woff"), url("../font/rajdhani-medium-webfont.ttf") format("truetype");
+  src: url("./font/rajdhani-medium-webfont.eot");
+  src: url("./font/rajdhani-medium-webfont.eot?#iefix") format("embedded-opentype"), url("./font/rajdhani-medium-webfont.woff") format("woff"), url("./font/rajdhani-medium-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "rajdhaniregular";
-  src: url("../font/rajdhani-regular-webfont.eot");
-  src: url("../font/rajdhani-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/rajdhani-regular-webfont.woff") format("woff"), url("../font/rajdhani-regular-webfont.ttf") format("truetype");
+  src: url("./font/rajdhani-regular-webfont.eot");
+  src: url("./font/rajdhani-regular-webfont.eot?#iefix") format("embedded-opentype"), url("./font/rajdhani-regular-webfont.woff") format("woff"), url("./font/rajdhani-regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "rajdhanisemibold";
-  src: url("../font/rajdhani-semibold-webfont.eot");
-  src: url("../font/rajdhani-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/rajdhani-semibold-webfont.woff") format("woff"), url("../font/rajdhani-semibold-webfont.ttf") format("truetype");
+  src: url("./font/rajdhani-semibold-webfont.eot");
+  src: url("./font/rajdhani-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("./font/rajdhani-semibold-webfont.woff") format("woff"), url("./font/rajdhani-semibold-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "rajdhanibold";
-  src: url("../font/rajdhani-bold-webfont.eot");
-  src: url("../font/rajdhani-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/rajdhani-bold-webfont.woff") format("woff"), url("../font/rajdhani-bold-webfont.ttf") format("truetype");
+  src: url("./font/rajdhani-bold-webfont.eot");
+  src: url("./font/rajdhani-bold-webfont.eot?#iefix") format("embedded-opentype"), url("./font/rajdhani-bold-webfont.woff") format("woff"), url("./font/rajdhani-bold-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "rajdhanilight";
-  src: url("../font/rajdhani-light-webfont.eot");
-  src: url("../font/rajdhani-light-webfont.eot?#iefix") format("embedded-opentype"), url("../font/rajdhani-light-webfont.woff") format("woff"), url("../font/rajdhani-light-webfont.ttf") format("truetype");
+  src: url("./font/rajdhani-light-webfont.eot");
+  src: url("./font/rajdhani-light-webfont.eot?#iefix") format("embedded-opentype"), url("./font/rajdhani-light-webfont.woff") format("woff"), url("./font/rajdhani-light-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -161,15 +161,15 @@ p.bold {
 }
 
 .cuore .box_img_item {
-  background-image: url("/img/cuore_bg_mb.png");
+  background-image: url("./img/cuore_bg_mb.png");
 }
 
 .gret .box_img_item {
-  background-image: url("/img/gret_bg_mb.png");
+  background-image: url("./img/gret_bg_mb.png");
 }
 
 .hidrocon .box_img_item {
-  background-image: url("/img/hidrocon_bg_mb.png");
+  background-image: url("./img/hidrocon_bg_mb.png");
 }
 
 @media only screen and (min-width: 768px) {
@@ -204,13 +204,13 @@ p.bold {
 }
 @media only screen and (min-width: 1024px) {
   .cuore .box_img_item {
-    background-image: url("/img/cuore_bg.png");
+    background-image: url("./img/cuore_bg.png");
   }
   .gret .box_img_item {
-    background-image: url("/img/gret_bg.png");
+    background-image: url("./img/gret_bg.png");
   }
   .hidrocon .box_img_item {
-    background-image: url("/img/hidrocon_bg.png");
+    background-image: url("./img/hidrocon_bg.png");
   }
 }
 header {
@@ -630,13 +630,13 @@ header .nav_mobile .menu .close .line:last-child {
     background-size: cover;
   }
   .portafolio .cuore .box_img_item {
-    background-image: url("/img/cuore_bg.png");
+    background-image: url("./img/cuore_bg.png");
   }
   .portafolio .gret .box_img_item {
-    background-image: url("/img/gret_bg.png");
+    background-image: url("./img/gret_bg.png");
   }
   .portafolio .hidrocon .box_img_item {
-    background-image: url("/img/hidrocon_bg.png");
+    background-image: url("./img/hidrocon_bg.png");
   }
   .contactame {
     padding: 70px;
@@ -703,7 +703,7 @@ header .nav_mobile .menu .close .line:last-child {
   max-width: 50%;
 }
 .proyectos .proyecto_cuore .hero_cuore {
-  background-image: url("/img/bg_cuore.png");
+  background-image: url("./img/bg_cuore.png");
 }
 .proyectos .proyecto_cuore .hero_cuore .bg_cuore img:first-child {
   max-width: 150px;
@@ -739,7 +739,7 @@ header .nav_mobile .menu .close .line:last-child {
   width: 100%;
 }
 .proyectos .proyecto_hidrocon .hero_hidrocon {
-  background-image: url("/img/bg_hidrocon.png");
+  background-image: url("./img/bg_hidrocon.png");
 }
 .proyectos .proyecto_hidrocon .interfaz .box_interfaz {
   grid-template-columns: 1fr;
